@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4335778-d833-4097-a7b8-bbfff576f30c" name="Default Changelist" comment="/">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AdminDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AdminDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/VisitanteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/VisitanteDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifpb/exceptions/AlunoInexistenteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifpb/exceptions/CodigoInexistenteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifpb/exceptions/CodigoInvalidoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifpb/exceptions/MatriculaExistenteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifpb/exceptions/MatriculaInvalidaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifpb/exceptions/QuantDiaInvalidoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BuscarAlunoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BuscarAlunoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BuscarVisitanteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BuscarVisitanteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CriarAlunoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CriarAlunoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CriarVisitanteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CriarVisitanteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RemoverAlunoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RemoverAlunoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ifpb/DAO/AlunoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifpb/DAO/AlunoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ifpb/DAO/AlunoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifpb/DAO/AlunoDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ifpb/DAO/VisitanteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifpb/DAO/VisitanteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ifpb/DAO/VisitanteDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifpb/DAO/VisitanteDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ifpb/view/App.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,28 +25,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AlunoDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="44" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AlunoDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="50" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="50" />
+              <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,48 +44,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/VisitanteDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/VisitanteDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/Admin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+            <state relative-caret-position="180">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding>
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AdminDAO.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RemoverAlunoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AdminDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BuscarAlunoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BuscarVisitanteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,10 +89,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/view/App.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestSuit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state relative-caret-position="225">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,17 +101,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/DiasSemana.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/VisitanteDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state relative-caret-position="165">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/Visitante.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/test/java/CriarAlunoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CriarVisitanteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -145,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/Enum/DiasSemanaEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/Enum/DiasSemana.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/exceptions/MatriculaExistenteException.java" />
@@ -158,15 +163,25 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/exceptions/CodigoInvalidoException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/model/DiasSemana.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/model/Aluno.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/VisitanteDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AlunoDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AlunoDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/VisitanteDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/model/Visitante.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/model/Admin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AdminDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AdminDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/view/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/DaoFactoryIF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/DaoFactoryImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/AlunoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/VisitanteDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AlunoDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RemoverAlunoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CriarAlunoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AlunoDAO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BuscarAlunoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CriarVisitanteTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/DAO/VisitanteDAO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BuscarVisitanteTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestSuit.java" />
       </list>
     </option>
   </component>
@@ -191,6 +206,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,23 +271,27 @@
               <item name="refeitorio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Refeitorio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="refeitorio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Refeitorio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553718715057" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Programação para a Web I/Repositório/pweb1/exemplojsf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Bancos de Dados II/Projeto/leriado/leriado" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -288,23 +308,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ifpb.view.App" />
+  <component name="RunManager" selected="JUnit.TestSuit">
+    <configuration name="BuscarAlunoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Refeitorio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ifpb.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BuscarAlunoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuscarVisitanteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Refeitorio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BuscarVisitanteTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CriarAlunoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Refeitorio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CriarAlunoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoverAlunoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Refeitorio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RemoverAlunoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Refeitorio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSuit" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.TestSuit" />
+        <item itemvalue="JUnit.BuscarVisitanteTest" />
+        <item itemvalue="JUnit.BuscarAlunoTest" />
+        <item itemvalue="JUnit.CriarAlunoTest" />
+        <item itemvalue="JUnit.RemoverAlunoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -324,18 +380,54 @@
       <workItem from="1553531364311" duration="100000" />
       <workItem from="1553698232783" duration="8000" />
       <workItem from="1553707070689" duration="11867000" />
-      <workItem from="1553777700720" duration="1383000" />
+      <workItem from="1553777700720" duration="2392000" />
+      <workItem from="1553859661971" duration="5000" />
+      <workItem from="1553865543302" duration="1185000" />
+      <workItem from="1554058354247" duration="61000" />
+      <workItem from="1554113782973" duration="9285000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CriarVisitanteTest - 2019.04.01 at 09h 19m 53s.xml">
+      <configuration name="CriarVisitanteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CriarVisitanteTest - 2019.04.01 at 09h 23m 51s.xml">
+      <configuration name="CriarVisitanteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoverAlunoTest - 2019.04.01 at 09h 23m 56s.xml">
+      <configuration name="RemoverAlunoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CriarAlunoTest - 2019.04.01 at 09h 24m 00s.xml">
+      <configuration name="CriarAlunoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CriarAlunoTest - 2019.04.01 at 09h 24m 20s.xml">
+      <configuration name="CriarAlunoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CriarAlunoTest - 2019.04.01 at 09h 30m 48s.xml">
+      <configuration name="CriarAlunoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BuscarAlunoTest - 2019.04.01 at 09h 37m 44s.xml">
+      <configuration name="BuscarAlunoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BuscarVisitanteTest - 2019.04.01 at 09h 47m 56s.xml">
+      <configuration name="BuscarVisitanteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuit - 2019.04.01 at 09h 52m 25s.xml">
+      <configuration name="TestSuit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuit - 2019.04.01 at 09h 52m 32s.xml">
+      <configuration name="TestSuit" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24044000" />
+    <option name="totallyTimeSpent" value="35589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657082" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27635783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -344,8 +436,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32985386" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32985386" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39979124" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -371,20 +463,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/exceptions/AlunoInexistenteException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/exceptions/CampoInvalidoException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -434,65 +512,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/Aluno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2131#2132#0" expanded="true" />
-            <element signature="e#2223#2224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/VisitanteDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/VisitanteDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/DiasSemana.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/Visitante.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AlunoDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="44" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AlunoDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="50" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/view/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/DaoFactoryIF.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/DaoFactoryImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
+        <state relative-caret-position="525">
           <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
           <folding>
             <element signature="e#848#849#0" expanded="true" />
@@ -501,10 +526,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/Visitante.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/Aluno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/exceptions/AlunoInexistenteException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AdminDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -518,10 +570,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/view/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/DiasSemana.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AlunoDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/AlunoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RemoverAlunoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BuscarAlunoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CriarVisitanteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/VisitanteDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/DAO/VisitanteDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CriarAlunoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BuscarVisitanteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
