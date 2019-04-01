@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
-public class AlunoTest {
+public class CriarAlunoTest {
 
     private AlunoDAO alunoDao;
 
@@ -21,7 +21,7 @@ public class AlunoTest {
     }
 
     @Test
-    public void cadastoAluno(){
+    public void cadastroAluno() throws MatriculaExistenteException, CampoInvalidoException{
         try{
             Assert.assertTrue(alunoDao.create("201801020005", "Marcelo", "2018.1", "Engenharia Civil",
                     Arrays.asList(DiasSemana.SEGUNDA, DiasSemana.TERCA, DiasSemana.QUARTA), Arrays.asList(DiasSemana.SEGUNDA, DiasSemana.SEXTA)));
@@ -35,7 +35,7 @@ public class AlunoTest {
     }
 
     @Test
-    public void cadastroAlunoMatriculaRepetida(){
+    public void cadastroAlunoMatriculaRepetida() throws MatriculaExistenteException, CampoInvalidoException{
         try{
             Assert.assertFalse(alunoDao.create("201812010003", "Maria", "2018.1", "ADS",
                     Arrays.asList(DiasSemana.SEGUNDA, DiasSemana.QUINTA), Arrays.asList(DiasSemana.QUARTA, DiasSemana.SEXTA)));
@@ -49,9 +49,9 @@ public class AlunoTest {
     }
 
     @Test
-    public void cadastroAlunoDadosFaltando(){
+    public void cadastroAlunoDadosFaltando() throws MatriculaExistenteException, CampoInvalidoException{
         try{
-            Assert.assertNotNull(alunoDao.create("201812010044", "Maria", null, null,
+            Assert.assertFalse(alunoDao.create("201812010044", "Maria", null, null,
                     Arrays.asList(DiasSemana.SEGUNDA, DiasSemana.QUINTA), Arrays.asList(DiasSemana.QUARTA, DiasSemana.SEXTA)));
         }
         catch (MatriculaExistenteException e){
