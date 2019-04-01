@@ -16,6 +16,9 @@ public class AlunoDaoImpl implements AlunoDAO{
 
     @Override
     public boolean create(String matricula, String nome, String periodo, String curso, List<DiasSemana> diasJantar, List<DiasSemana>diasAlmoco){
+        if (matricula == null | nome == null | periodo == null | curso == null | diasJantar == null | diasAlmoco == null){
+            return false;
+        }
         if(alunos.put(matricula, new Aluno(matricula, nome, periodo, curso, diasJantar, diasAlmoco))==null){
             return true;
         }
@@ -25,9 +28,9 @@ public class AlunoDaoImpl implements AlunoDAO{
     @Override
     public boolean delete(String matricula){
         if(alunos.remove(matricula)==null){
-            return true;
+            return false;
         }
-        else return false;
+        else return true;
     }
 
     @Override

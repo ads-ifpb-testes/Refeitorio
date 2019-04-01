@@ -1,5 +1,6 @@
 package com.ifpb.DAO;
 
+import com.ifpb.exceptions.QuantDiaInvalidoException;
 import com.ifpb.model.Visitante;
 import org.apache.commons.lang.RandomStringUtils;
 
@@ -16,11 +17,14 @@ public class VisitanteDaoImpl implements VisitanteDAO{
 
     @Override
     public String create(String nome, int quantDias){
+        if (quantDias < 1 | nome == null){
+            return null;
+        }
         codigo = gerarCodigo();
         if(visitantes.put(codigo, new Visitante(nome, quantDias, codigo))==null){
             return codigo;
         }
-        else return null;
+        return null;
     }
 
     private String gerarCodigo(){
